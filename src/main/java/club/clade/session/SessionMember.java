@@ -13,4 +13,7 @@ public interface SessionMember extends Keyed {
 
     @NotNull
     MemberState state();
+
+    @NotNull
+    MemberRank rank();
 }
